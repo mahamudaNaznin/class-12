@@ -1,0 +1,139 @@
+*{margin: 0;
+    outline: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section_info{
+    padding: 200px;
+}
+
+ .section_info h2{
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #02918c;
+}
+
+
+.section_info p{
+    font-size: 20px;
+    line-height: 41px;
+    color: #7e8287;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+   background-color: #02918c;
+}
+a{
+    color: white;
+    display: inline-block;
+    padding: 13.5px 25px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+}
+#banner{
+    background-image: url(./photo/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1170px;
+    
+}
+#banner h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+
+}
+#banner h1{
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    color: white;
+
+}
+#banner p{
+    font-size: 18px;
+    color: white;
+}
+#banner img{
+    margin: 38px 0px;
+
+}
+#banner a{
+    font-size: 14px;
+    font-weight: 800;
+    color:black;
+    background-color: #cfc91d;
+    padding: 14px 57px;
+    display: inline-block;
+    transition: .5s;
+}
+
+#container .row .about_box{
+    padding: 35px 62px 55px;
+}
+#container .row .about_box h3{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin: 30px 0;
+}
+#container .row .about_box p{
+    font-size: 11px;
+    line-height: 21px;
+    color: #7e8287;
+}
+/*--service section start---*/
+#service{
+    padding: 100px;
+    background-image: url(./service-img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*--service section end---*/
+
+/*--my work start--*/
+#mywork .work_box{
+   position: relative;
+}
+#mywork .work_box .overlay{
+    position: absolute;
+    background-color: #02918c;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+    bottom: 20px;
+}
+
+/*--my work end--*/
+/*---contact start---*/
+#contact .contact_form{
+    background-color: black;
+
+}
+#contact .contact_form input{
+    margin-bottom: 50px;
+    padding: 18px;
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: red;
+    color: white;
+
+
+}
+#contact .contact_form input:focus{
+    outline: none;
+    border-bottom-color: #02918c;
+}
+/*--contact end--*/
+
